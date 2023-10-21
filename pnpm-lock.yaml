@@ -31,6 +31,9 @@ importers:
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
+      shared:
+        specifier: workspace:^
+        version: link:../shared
     devDependencies:
       '@remix-run/dev':
         specifier: 0.0.0-experimental-5603af8a3
